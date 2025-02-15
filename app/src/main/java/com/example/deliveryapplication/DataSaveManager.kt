@@ -25,9 +25,13 @@ class DataSaveManager(private val context: Context) {
         editor.apply()
     }
 
-    fun loadBoolean(key: String): Boolean {
+    fun loadBoolean(key: String): Boolean? {
         val sharedPreferences: SharedPreferences = context.getSharedPreferences(dataBaseName, Context.MODE_PRIVATE)
-        return sharedPreferences.getBoolean(key, false)
+        return if (sharedPreferences.contains(key)) {
+            sharedPreferences.getBoolean(key, false)
+        } else {
+            null
+        }
     }
 
     fun saveInt(key: String, value: Int) {

@@ -12,8 +12,8 @@ class SupabaseManager {
     }
 
     val supabase = createSupabaseClient(
-        supabaseUrl = "https://lfjmqmexbedkkovtkuzj.supabase.co",
-        supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxmam1xbWV4YmVka2tvdnRrdXpqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzkxNzAyOTEsImV4cCI6MjA1NDc0NjI5MX0.DAKLZM1sT-5T3ORVe6BlwwN9bWzHK9rgdsqleP7JljY"
+        supabaseUrl = "",
+        supabaseKey = ""
     )
     {
         //install(Auth)

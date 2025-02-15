@@ -67,9 +67,7 @@ class MainActivity : AppCompatActivity() {
                     var locale = getCurrentLocale(this@MainActivity)
 
                     sharedData.setNightMode(
-                        if (dataSaveManager.loadBoolean("night_mode") == false) getCurrentNightMode(
-                            this@MainActivity
-                        ) else false
+                        if (dataSaveManager.loadBoolean("night_mode") == null) getCurrentNightMode(this@MainActivity) else dataSaveManager.loadBoolean("night_mode")!!
                     )
                     sharedData.setLanguagePosition(if (dataSaveManager.loadInt("language_position") == -2) supportedLanguages.indexOfFirst { it.language == locale.language } else dataSaveManager.loadInt(
                         "language_position"
