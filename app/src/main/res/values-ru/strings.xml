@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Доставка</string>
+    <string name="title_activity_home">Главная</string>
+    <string name="title_postomat">Пункты выдачи</string>
+    <string name="title_map">Карта</string>
+    <string name="title_package">Посылки</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_night_mode">Ночная тема</string>
+    <string name="title_allpication_language">Язык приложения:</string>
+    <string name="title_no_internet">Нет подключения к интернету</string>
+    <string name="title_load_data">Загрузка данных</string>
+</resources>

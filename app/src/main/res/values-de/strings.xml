@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lieferung</string>
+    <string name="title_activity_home">Hauptsaechliche</string>
+    <string name="title_postomat">Abholpunkte</string>
+    <string name="title_map">Karte</string>
+    <string name="title_package">Pakete</string>
+    <string name="title_settings">Einstellungen</string>
+    <string name="title_night_mode">Nachtthema</string>
+    <string name="title_allpication_language">Sprache der Anwendung:</string>
+    <string name="title_no_internet">Keine Internetverbindung</string>
+    <string name="title_load_data">Daten werden geladen</string>
+</resources>

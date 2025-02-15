@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_postomat"
+        android:icon="@drawable/ic_postomat_black_24dp"
+        android:title="@string/title_postomat" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:title="@string/title_map" />
+
+    <item
+        android:id="@+id/navigation_package"
+        android:icon="@drawable/ic_packages_black_24dp"
+        android:title="@string/title_package" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/title_settings" />
+
+</menu>
